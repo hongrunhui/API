@@ -7,8 +7,8 @@ case $1 in
         ;;
     'react-webpack')
         cd ./frontend/react/webpack
-        webpack --watch
-        # webpack-dev-server --hot --inline --watch
+        # webpack --watch
+        webpack-dev-server --hot --inline --watch
         ;;
 
 esac
